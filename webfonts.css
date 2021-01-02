@@ -1,0 +1,22 @@
+/* @font-face declarations copied from the Inter v3.11 download */
+@font-face {
+  font-family: 'Inter';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('https://envato.com/static/media/Inter-roman.subset.dffdfac0.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url('https://envato.com/static/media/kalam.regular.latin-subset.b9f76d0e.woff2') format('woff2');
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
